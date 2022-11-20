@@ -1,0 +1,74 @@
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(172, 172, 172); 
+    border-radius: 3px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #573d7c; 
+    border-radius: 3px;
+}
+
+/* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+    background: #573d7c; 
+}
+.avatar{
+    border-color: #2e528c;
+    border-radius: 7px;
+    height: 50px;
+    width: 25%;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 12px;
+}
+.app_menu {
+    margin-right: 0;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.app_menu li {
+    margin-right: 15px;
+}
+.description{
+    border-color: #2e528c;
+    border-radius: 7px;
+}
+.logo{
+    background-color: #573d7c;
+    padding: 2px 13px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.save_button{
+    margin-left: auto;
+    margin-right: auto;
+}
+.disabled_btn{
+    cursor: no-drop;
+}
+
+.bio {
+    font-size: 15px;
+    font-weight: 500;
+}
+.img_wrap {
+    position: relative;
+}
+.user_profile {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}

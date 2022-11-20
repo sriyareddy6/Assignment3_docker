@@ -10,6 +10,7 @@ Ip address of the Ec2 instance:
 
 GitHub repository link: https://github.com/sriyareddy6/Assignment3_docker
 
+Steps:
 source_code folder has both client and server folders with docker files and a seperate docker-compose.yaml file.
 install nodemodules in both the folders.
 Check if docker file is already running using docker ps

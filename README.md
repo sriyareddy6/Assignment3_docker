@@ -8,7 +8,7 @@ Ip address of the Ec2 instance:
   public IPv4 address : 44.200.22.137
   public Ipv4 DNS : ec2-44-200-22-137.compute-1.amazonaws.com
 
-GitHub repository link: https://github.com/ualbany-software-engineering/git-github-fundamentals-sriyareddy6/tree/Assignment2_docker
+GitHub repository link: https://github.com/sriyareddy6/Assignment3_docker
 
 source_code folder has both client and server folders with docker files and a seperate docker-compose.yaml file.
 install nodemodules in both the folders.
